@@ -1,0 +1,38 @@
+<div class="container">
+  <h1>EXPENSE DETAILS</h1>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Enter the Expense Code" aria-label="Recipient's username" 
+    aria-describedby="basic-addon2" [(ngModel)]="expense_code" >
+    <div class="input-group-append">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" 
+      aria-controls="collapseExample" id="basic-addon2" (onclick)="ABC()">Search</button>
+    </div>
+  </div>
+
+
+  <!-- <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">EXPENSE CODE</th>
+            <th scope="col">EXPENSE TYPE</th>
+            <th scope="col">EXPENSE DESCRIPTION</th>
+            
+            
+          </tr>
+        </thead>
+    
+        <tbody *ngFor="let expense of ExpenseService.Expenses">
+          <tr>
+            <th>{{expense.expense_code}}</th>
+            <td>{{expense.expense_type}}</td>
+            <td>{{expense.expense_description}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  </div> -->
